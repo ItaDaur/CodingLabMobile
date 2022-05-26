@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4258013280E887600CA588A /* SettindsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4258012280E887600CA588A /* SettindsViewController.swift */; };
+		C42FE3F9281F2C630075342E /* LibriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42FE3F8281F2C630075342E /* LibriesViewController.swift */; };
+		C442068E283F60BD00DDA292 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442068D283F60BD00DDA292 /* HomeViewController.swift */; };
 		C4652317280E3A4200164493 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4652316280E3A4200164493 /* ProfileViewController.swift */; };
 		C465231B280E3E3D00164493 /* Modul.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465231A280E3E3D00164493 /* Modul.swift */; };
 		C48A8AAD280487F500A5E054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48A8AAC280487F500A5E054 /* AppDelegate.swift */; };
 		C48A8AB4280487F500A5E054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48A8AB2280487F500A5E054 /* Main.storyboard */; };
 		C48A8AB6280487F800A5E054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48A8AB5280487F800A5E054 /* Assets.xcassets */; };
 		C48A8AB9280487F800A5E054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48A8AB7280487F800A5E054 /* LaunchScreen.storyboard */; };
+		C4AD10832832606C00987A29 /* RentedBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD10822832606C00987A29 /* RentedBookViewController.swift */; };
+		C4AD10872832843F00987A29 /* DeptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD10862832843F00987A29 /* DeptViewController.swift */; };
+		C4E66D3B283BB9C80000B8AE /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E66D3A283BB9C80000B8AE /* TimerViewController.swift */; };
+		C4E66D3F283D35200000B8AE /* CoorMapModul.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E66D3E283D35200000B8AE /* CoorMapModul.swift */; };
+		C4E66D41283D380D0000B8AE /* ModulCoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E66D40283D380D0000B8AE /* ModulCoor.swift */; };
+		C4E66D43283D5AE80000B8AE /* CreateNewMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E66D42283D5AE80000B8AE /* CreateNewMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4258012280E887600CA588A /* SettindsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettindsViewController.swift; sourceTree = "<group>"; };
+		C42FE3F8281F2C630075342E /* LibriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibriesViewController.swift; sourceTree = "<group>"; };
+		C442068D283F60BD00DDA292 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C4652316280E3A4200164493 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C465231A280E3E3D00164493 /* Modul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modul.swift; sourceTree = "<group>"; };
 		C48A8AA9280487F500A5E054 /* Otrar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otrar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +36,12 @@
 		C48A8AB5280487F800A5E054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C48A8AB8280487F800A5E054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C48A8ABA280487F800A5E054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4AD10822832606C00987A29 /* RentedBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentedBookViewController.swift; sourceTree = "<group>"; };
+		C4AD10862832843F00987A29 /* DeptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeptViewController.swift; sourceTree = "<group>"; };
+		C4E66D3A283BB9C80000B8AE /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		C4E66D3E283D35200000B8AE /* CoorMapModul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoorMapModul.swift; sourceTree = "<group>"; };
+		C4E66D40283D380D0000B8AE /* ModulCoor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulCoor.swift; sourceTree = "<group>"; };
+		C4E66D42283D5AE80000B8AE /* CreateNewMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,15 @@
 				C48A8ABA280487F800A5E054 /* Info.plist */,
 				C4652316280E3A4200164493 /* ProfileViewController.swift */,
 				C465231A280E3E3D00164493 /* Modul.swift */,
+				C4258012280E887600CA588A /* SettindsViewController.swift */,
+				C42FE3F8281F2C630075342E /* LibriesViewController.swift */,
+				C4AD10822832606C00987A29 /* RentedBookViewController.swift */,
+				C4AD10862832843F00987A29 /* DeptViewController.swift */,
+				C4E66D3A283BB9C80000B8AE /* TimerViewController.swift */,
+				C4E66D3E283D35200000B8AE /* CoorMapModul.swift */,
+				C4E66D40283D380D0000B8AE /* ModulCoor.swift */,
+				C4E66D42283D5AE80000B8AE /* CreateNewMapViewController.swift */,
+				C442068D283F60BD00DDA292 /* HomeViewController.swift */,
 			);
 			path = Otrar;
 			sourceTree = "<group>";
@@ -138,9 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4258013280E887600CA588A /* SettindsViewController.swift in Sources */,
 				C4652317280E3A4200164493 /* ProfileViewController.swift in Sources */,
 				C465231B280E3E3D00164493 /* Modul.swift in Sources */,
+				C4E66D3F283D35200000B8AE /* CoorMapModul.swift in Sources */,
+				C4E66D43283D5AE80000B8AE /* CreateNewMapViewController.swift in Sources */,
+				C4AD10832832606C00987A29 /* RentedBookViewController.swift in Sources */,
+				C4E66D3B283BB9C80000B8AE /* TimerViewController.swift in Sources */,
+				C4AD10872832843F00987A29 /* DeptViewController.swift in Sources */,
+				C4E66D41283D380D0000B8AE /* ModulCoor.swift in Sources */,
+				C42FE3F9281F2C630075342E /* LibriesViewController.swift in Sources */,
 				C48A8AAD280487F500A5E054 /* AppDelegate.swift in Sources */,
+				C442068E283F60BD00DDA292 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
