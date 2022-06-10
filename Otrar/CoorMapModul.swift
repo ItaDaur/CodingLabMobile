@@ -21,9 +21,9 @@ class CoorMapModul {
         // 51.127902, 71.427034
         let m2 = CoorForMap(coordinate: CLLocationCoordinate2D(latitude: 51.127902, longitude: 71.427034), name: "Adil", city: "Astana")
         // 51.127672, 71.427098
-        let m3 = CoorForMap(coordinate: CLLocationCoordinate2D(latitude: 51.127672, longitude: 71.427098), name: "Biba", city: "Astana")
+        let m3 = CoorForMap(coordinate: CLLocationCoordinate2D(latitude: 51.127672, longitude: 71.427098), name: "National Academic Library of the Republic of Kazakhstan", city: "Astana")
         // 51.116713, 71.441422
-        let m4 = CoorForMap(coordinate: CLLocationCoordinate2D(latitude: 51.116713, longitude: 71.441422), name: "Daur", city: "Astana")
+        let m4 = CoorForMap(coordinate: CLLocationCoordinate2D(latitude: 51.116713, longitude: 71.441422), name: "Library of the First President of the Republic of Kazakhstan-Elbasy", city: "Astana")
         
         let coorArray = [m1,m2,m3,m4]
         

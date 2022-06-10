@@ -10,6 +10,7 @@
 		C4258013280E887600CA588A /* SettindsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4258012280E887600CA588A /* SettindsViewController.swift */; };
 		C42FE3F9281F2C630075342E /* LibriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42FE3F8281F2C630075342E /* LibriesViewController.swift */; };
 		C442068E283F60BD00DDA292 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442068D283F60BD00DDA292 /* HomeViewController.swift */; };
+		C4420690283F642C00DDA292 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C442068F283F642C00DDA292 /* HomeCollectionViewCell.swift */; };
 		C4652317280E3A4200164493 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4652316280E3A4200164493 /* ProfileViewController.swift */; };
 		C465231B280E3E3D00164493 /* Modul.swift in Sources */ = {isa = PBXBuildFile; fileRef = C465231A280E3E3D00164493 /* Modul.swift */; };
 		C48A8AAD280487F500A5E054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48A8AAC280487F500A5E054 /* AppDelegate.swift */; };
@@ -22,12 +23,15 @@
 		C4E66D3F283D35200000B8AE /* CoorMapModul.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E66D3E283D35200000B8AE /* CoorMapModul.swift */; };
 		C4E66D41283D380D0000B8AE /* ModulCoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E66D40283D380D0000B8AE /* ModulCoor.swift */; };
 		C4E66D43283D5AE80000B8AE /* CreateNewMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E66D42283D5AE80000B8AE /* CreateNewMapViewController.swift */; };
+		C4F3829D284F663B0051B4ED /* NavigatorMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F3829C284F663B0051B4ED /* NavigatorMapViewController.swift */; };
+		C4F3829F28509C900051B4ED /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F3829E28509C8F0051B4ED /* NotificationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C4258012280E887600CA588A /* SettindsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettindsViewController.swift; sourceTree = "<group>"; };
 		C42FE3F8281F2C630075342E /* LibriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibriesViewController.swift; sourceTree = "<group>"; };
 		C442068D283F60BD00DDA292 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C442068F283F642C00DDA292 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		C4652316280E3A4200164493 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C465231A280E3E3D00164493 /* Modul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modul.swift; sourceTree = "<group>"; };
 		C48A8AA9280487F500A5E054 /* Otrar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otrar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +46,8 @@
 		C4E66D3E283D35200000B8AE /* CoorMapModul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoorMapModul.swift; sourceTree = "<group>"; };
 		C4E66D40283D380D0000B8AE /* ModulCoor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulCoor.swift; sourceTree = "<group>"; };
 		C4E66D42283D5AE80000B8AE /* CreateNewMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewMapViewController.swift; sourceTree = "<group>"; };
+		C4F3829C284F663B0051B4ED /* NavigatorMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorMapViewController.swift; sourceTree = "<group>"; };
+		C4F3829E28509C8F0051B4ED /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 				C4E66D40283D380D0000B8AE /* ModulCoor.swift */,
 				C4E66D42283D5AE80000B8AE /* CreateNewMapViewController.swift */,
 				C442068D283F60BD00DDA292 /* HomeViewController.swift */,
+				C442068F283F642C00DDA292 /* HomeCollectionViewCell.swift */,
+				C4F3829C284F663B0051B4ED /* NavigatorMapViewController.swift */,
+				C4F3829E28509C8F0051B4ED /* NotificationViewController.swift */,
 			);
 			path = Otrar;
 			sourceTree = "<group>";
@@ -170,6 +179,9 @@
 				C465231B280E3E3D00164493 /* Modul.swift in Sources */,
 				C4E66D3F283D35200000B8AE /* CoorMapModul.swift in Sources */,
 				C4E66D43283D5AE80000B8AE /* CreateNewMapViewController.swift in Sources */,
+				C4F3829F28509C900051B4ED /* NotificationViewController.swift in Sources */,
+				C4420690283F642C00DDA292 /* HomeCollectionViewCell.swift in Sources */,
+				C4F3829D284F663B0051B4ED /* NavigatorMapViewController.swift in Sources */,
 				C4AD10832832606C00987A29 /* RentedBookViewController.swift in Sources */,
 				C4E66D3B283BB9C80000B8AE /* TimerViewController.swift in Sources */,
 				C4AD10872832843F00987A29 /* DeptViewController.swift in Sources */,
